@@ -1,0 +1,21 @@
+table {
+    background-color: #ccc;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+th {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    vertical-align: top;
+}
+td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    vertical-align: top;
+}
+caption {
+    font-family: Verdana, 'Geneva', sans-serif;
+    font-size: 1.2em;
+    color: #006;
+    caption-side: bottom;
+}
