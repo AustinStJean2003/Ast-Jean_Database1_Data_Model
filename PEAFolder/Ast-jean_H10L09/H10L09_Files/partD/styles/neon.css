@@ -1,0 +1,65 @@
+/*  CSS Document  */
+
+@import url('https://fonts.googleapis.com/css?family=Warnes|Abel');
+
+html { 
+	background-color:  #000;
+	background-image: url(../images/newyorkatnight.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+body { 
+	margin: 0; 
+	padding: 0; 
+	font-size: 1em; 
+	font-family: 'Abel', sans-serif; }
+
+article { 
+	margin: 50px 50px; 
+	padding: 20px 45px; 
+	text-align: center; 
+	color: rgba(255, 255, 255, 0.651); 
+	border: solid 2px white;
+	border-radius: 34px;
+}
+
+p { 
+	margin: 0 0 1em 0; 
+	font-size: 1.2em; 
+	line-height: 1.1em; 
+}
+
+h2 { 
+	font-size: 2em; 
+	margin: 0; 
+}
+
+h1 {
+	font-family: 'Warnes', cursive;
+	font-weight: normal;
+	font-size: 4em;
+	line-height: 1.2em;
+	margin: 0 0 15px 0;
+	color: rgba(255,255,255,1);
+}
+.neonText {
+	text-shadow: 
+		-2px -2px 10px #fff,
+		2px 2px 10px #4bc9da,
+		2px 2px 20px rgb(75, 201, 218),
+		2px 2px 40px rgb(75, 201, 218),
+		2px 2px 60px rgb(75, 201, 218),
+		2px 2px 80px rgb(75, 201, 218),
+		2px 2px 100px rgb(75, 201, 218);	
+}
+.neonBox {
+	box-shadow:
+		0px 0px 5px #fff,
+		inset 0px 0px 5px #fff,
+		inset 0px 0px 20px 2px #4bc9da,
+		0px 0px 20px 2px #4bc9da;
+}
+

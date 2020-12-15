@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px) {
+body {
+    background: linear-gradient(black, #ac445b);
+}
+#marvelimg {
+    position: absolute;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    padding-right: 33px;
+    font-size: 2em;
+    line-height: 2em;
+    font-size: 3.3em;
+    font-weight: bold;
+    text-shadow: -3px -3px 25px white, 10px 10px 25px #D40B36, 13px 13px 25px #bc0bd4, -15px -15px 25px #D40B36;
+    
+}
+.rightfloat {
+    float: right;
+    margin: 5px;
+    clear: both;
+}
+.leftfloat {
+    float: left;
+    margin: 5px;
+    clear: both;
+}
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    color: #D40B36;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    font-size: 2em;
+    text-align: center;
+}
+h2:hover {
+    color: #bc0bd4;
+    font-size: 2.5em;
+}
+ul {
+    color: #F6640C;
+}
+header {
+    border-bottom: 3px solid white;
+}
+.herodiv {
+    overflow: auto;
+}
+table {
+    background-color: #D40B36;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 230px;
+    border: 3px solid black;
+}
+td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+th {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    vertical-align: top;
+    border: 2px solid black;
+}
+th:hover {
+    background-color: #bc0bd4;
+}
+p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: left;
+    margin-right: 13px;
+    margin-left: 13px;
+}
+p::first-letter{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+	line-height: 0.3em;
+}
+div {
+    border: 4px solid black;
+    border-bottom: 0px;
+}
+.floatright {
+    float: right;
+}
+
+}
+@media screen and (min-width: 768px) {
+    body {
+        background: linear-gradient(#6B0900, #DF8BF5);
+    }
+    h1 {
+        background-image: url(./images/marvel.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        border-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px;
+        line-height: 200%;
+        text-align: center;
+        font-size: 2em;
+    }
+    h2 {
+        color: #D40B36;
+        border: 3px solid darkred;
+        padding: 5px;
+        text-shadow: 5px 5px 5px black;
+    }
+    ul {
+        color: #F6640C;
+    }
+}
