@@ -22,6 +22,12 @@ You must modify this file with the information we discussed in class and what is
     *420-G20
     *420-K10
     *420-K20
+    
+    *420-F20_Assignment2_NetworkDesign - I made a network design for an entire floor of a building
+    *Ast-jean_H10A03Web - A static website of a mock online buisness
+    *AustinStJean-Connect-N - A game of connect 4 with a twist
+    *AustinSt-Jean_K10_A01_ResumeFinal - My personal resume
+    *Math PEA - My PEA for math for computer science where I discuss a topic I learnt about
 ## Adding subtrees
 
 The Word document in this repository contains the instructions on how to create subtrees of your other projects. For your first web assignment this is your Web Programming I, Lab 5.
